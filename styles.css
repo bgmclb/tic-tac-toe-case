@@ -1,0 +1,63 @@
+.container{
+    margin-top: 5%;
+    max-width: 1900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+.game-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    border: 2px solid rgb(143, 143, 143);
+    width: 450px;
+    height: 450px;
+    margin: 10px 0 20px 0;
+}
+
+.grid{
+    border: 2px solid rgb(143, 143, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+.grid img{
+    width : 50px;
+    height: 50px;
+    transition: width 1s, height 1s;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;;
+}
+
+.game-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.restart{
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.turn{
+    font-size: 1.3em;
+}
+
+.restart img{
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+}
+

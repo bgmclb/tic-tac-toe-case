@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="game-wrapper">
+                <div class="title">
+                    <h1>TIC TAC TOE</h1>
+                </div>
+                <div class="game-info">
+                    <div class="turn" id="turn">TURN : X</div>  
+                    <div class="restart">
+                        <span>RESTART</span> <img src="/icons8-restart-50.png" onclick="restartGame()">
+                    </div>   
+                </div>
+
+                <div class="game-grid">
+                    <div class="grid" id="1" onclick="move(this.id)" data-move="" data-cell-coordination="(0,0)"></div>
+                    <div class="grid" id="2" onclick="move(this.id)" data-move="" data-cell-coordination="(0,1)"></div>
+                    <div class="grid" id="3" onclick="move(this.id)" data-move="" data-cell-coordination="(0,2)"></div>
+                    <div class="grid" id="4" onclick="move(this.id)" data-move="" data-cell-coordination="(1,0)"></div>
+                    <div class="grid" id="5" onclick="move(this.id)" data-move="" data-cell-coordination="(1,1)"></div>
+                    <div class="grid" id="6" onclick="move(this.id)" data-move="" data-cell-coordination="(1,2)"></div>
+                    <div class="grid" id="7" onclick="move(this.id)" data-move="" data-cell-coordination="(2,0)"></div>
+                    <div class="grid" id="8" onclick="move(this.id)" data-move="" data-cell-coordination="(2,1)"></div>
+                    <div class="grid" id="9" onclick="move(this.id)" data-move="" data-cell-coordination="(2,2)"></div>
+                </div>
+         
+            </div>
+        </div>
+    </body>
+</html> 
